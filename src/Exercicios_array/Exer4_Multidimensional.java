@@ -7,7 +7,7 @@ Gere e imprima uma matriz M 4x4 com valores aleatórios entre 0-9.
 */
 public class Exer4_Multidimensional {
     public static void main(String[] args) {
-       /* Random random = new Random();
+       Random random = new Random();
 
         int[][] M = new int[4][4];
 
@@ -23,11 +23,6 @@ public class Exer4_Multidimensional {
                 System.out.print(coluna + " ");
             }
             System.out.println();
-        }*/
-        int num = 5, count = 1;
-        do {
-            num += count;
-            System.out.println(num);
-        } while (count <= 3);
+        }
     }
 }
